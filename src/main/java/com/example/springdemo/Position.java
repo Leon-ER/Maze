@@ -1,6 +1,5 @@
 package com.example.springdemo;
 
-// Importing necessary libraries
 import java.util.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;

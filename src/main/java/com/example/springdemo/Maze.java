@@ -32,7 +32,7 @@ public class Maze {
         if (row < 0 || row >= rows || col < 0 || col >= cols || visited[row][col] || maze[row][col].equals("0")) {
             return;
         }
-        //Mark the current cell as visited and  add the current cell to the path
+        //Mark the current cell as visited and adds the current cell to the path
         visited[row][col] = true;
         path.add(new int[]{row, col});
 
